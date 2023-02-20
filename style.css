@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "SoDo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* Header */
+
+header {
+  height: 101px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.gutters {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+}
+
+.logo-container svg {
+  width: 50px;
+}
+
+.nav-wrapper {
+  display: flex;
+}
+
+.nav-left ul {
+  list-style: none;
+}
+
+.nav-left li {
+  display: inline-block;
+}
+
+.nav-right ul {
+  list-style: none;
+}
+
+.nav-right li {
+  display: inline-block;
+}
